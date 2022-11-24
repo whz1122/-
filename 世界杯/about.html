@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>球员介绍</title>
+			<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+			
+		<style>
+			
+				*{
+					padding: 0;
+					margin: 0;
+				}
+				.nav{
+					background-color: rgba(170, 0, 255, 1);
+					
+				}
+				.nav img{
+					margin-left: 10%;
+				}
+				.active{
+						border-bottom: 1px solid orange;color: black;
+				}
+				.nav li{
+				    float:left;/*浮动*/
+				    width:75px;/*设置一个<li>宽度75px*/
+				    text-align:center;/*文本居中*/
+					margin-left: 150px;
+				}
+				.nav a:hover{
+					color: rebeccapurple;
+					font-size:2rem ;
+					   transition-property: all;
+					    transition-duration: 0.8s;
+						border-bottom: 1px solid orange;
+				}
+				.nav ul{
+					list-style: none;
+					display: inline-block;
+				}
+				.nav a{
+				    display:block;/*块状显示，一块块的整齐*/
+				    color:white;/*内容颜色白色*/
+				    text-decoration: none;/*去掉下划线*/
+				  /*每个宽度80px*/
+				  width: 170px;
+				    line-height: 30px;/*行高30px*/
+					padding-bottom: 50%;
+					font-size: 1.5rem;
+					
+				}
+				.top{
+					background-color:lightskyblue;
+					height: 10vh;text-align: center;
+				}
+				.top img{
+					margin-top: 1rem;
+					margin-left: 4rem;
+					margin-right: 3rem;
+				}
+				.top span{
+					line-height: 100%;
+					font-size: 4rem;
+				     color: white;
+					vertical-align: baseline;
+				}
+				.humes{
+					background-color: antiquewhite;
+					text-align: center;
+				}
+				.humes div{
+					background-image: url("img/renweubeij.svg") ;
+					background-size: 100% 100%;
+					display: inline-block;
+					width: 20%;
+				}
+				.humes div img{
+					width: 100%;
+				}
+				.humes div p{
+					margin-top: 4rem;
+					padding-bottom: 3rem;
+				}
+				
+				.bg div h1{
+					font-size: 5rem;
+					padding-top: 15rem;color:white;padding-left:6rem;
+				}
+				.bg div h3{
+					font-size: 2.0rem;width: 60%;
+					padding-top: 5rem;
+					padding-bottom: 3rem;color:white;padding-left:6rem;
+				}
+				.bg div button{
+					margin-left: 10rem;
+					line-height: 3rem;
+					width: 20rem;
+					background-color: rgba(170, 0, 255, 0);
+					color: darkslateblue;
+					font-weight: 700;
+					font-size: 2rem;
+					border: 2px solid white;
+					padding: 1rem 3rem;
+					border-radius: 3rem;
+				}
+				.bg div button:hover{
+					color: black;
+					transform: scale(1.1);
+					background-color: white;
+					transition: all 1s;
+				}
+				.bg1{
+					background-image: url("img/aboutbg.webp");height:80vh;background-size:100% 100%;
+				}
+				.bg2{
+					background-image: url("img/aboutbg2.webp");height:80vh;background-size:100% 100%;
+				}
+				.bg3{
+					background-image: url("img/aboutbg3.webp");height:80vh;background-size:100% 100%;
+				}
+				.bg4{
+					background-image: url("img/aboutbg4.webp");height:80vh;background-size:100% 100%;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="nav">
+			<img src="img/bg10.png" style="width: 10%;"/>
+			<ul >				
+				<li ><a  href="index.html">首页</a></li>
+				<li><a href="news.html" >新闻</a></li>
+				<li><a href="humens.html" >球员介绍</a></li>
+				<li><a href="#" class="active">关于世界杯</a></li>
+			</ul>
+			
+		</div>
+		<DIV class="bg">
+		<div class="bg1"><h1>FIFA Women’s World Cup 2023™</h1><h3>Single match passes for the FIFA Women's World Cup 2023™ are now on sale! The second phase of sales is open until March 3, 2023</h3><BR><button>LEARN MORE</button></div>
+		<div class="bg2"><h1>Volunteer Applications Now Open</h1><h3>The FIFA Women’s World Cup 2023 Volunteer Programme has been launched and applications are now open.</h3><BR><button>LEARN MORE</button></div>
+		<div class="bg3"><h1>FIFA Women's World Cup 2023™ Draw</h1><h3>Re-live the Draw for Australia / New Zealand 2023™</h3><BR><button>LEARN MORE</button></div>
+		<div class="bg4" style="text-align: center;"><h1>Meet Tazuni™ - Official Mascot for the FIFA Women's World Cup!</h1><h3>The football-loving teenage penguin will bring the excitement of the tournament and inspire a new generation of fans</h3><BR><button>LEARN MORE</button></div>
+	</DIV>
+	</body>
+</html>
